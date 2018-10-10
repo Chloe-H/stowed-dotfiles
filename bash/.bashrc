@@ -127,3 +127,7 @@ export NVM_DIR="$HOME/.nvm"
 # CEH
 alias gpom='git push origin master'
 alias gpo='git push origin'
+
+# For virtualenvwrapper
+source ~/.local/bin/virtualenvwrapper.sh
+export WORKON_HOME=/virtualenvs
