@@ -1,0 +1,49 @@
+# ignore elm.json added to make elm-format work when called in the root directory
+/elm.json
+
+# including contents of top-level .gitignore, with some exceptions, to make
+# ctrlp search the way I want it to
+.git/
+.idea/
+.vscode/
+__pycache__/
+venv/
+*.egg-info/
+models/*
+taa_test.json
+.coverage
+htmlcov/
+client/dist/
+server/radpath/assets/
+server/radpath/celerybeat.pid
+
+
+# dependencies
+node_modules/
+elm-stuff/
+.stack-work/
+.fusebox
+
+# testing
+coverage
+
+# production
+build
+src/client/dist
+
+# Python
+*.pyc
+
+# misc
+.DS_Store
+.env
+npm-debug.log.*
+.rake_tasks~
+
+*.cabal
+
+client/app/app.js
+# client/elm/Generated/
+# client/app/Generated/
+package-lock.json
+/server/demo_data/illuminate/
