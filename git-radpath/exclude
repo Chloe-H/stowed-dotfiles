@@ -1,5 +1,8 @@
-# ignore elm.json added to make elm-format work when called in the root directory
+# ignore top-level elm.json that was added to make elm-format work when called in the root directory
 /elm.json
+
+# ignore vim's swap files
+*.swp
 
 # including contents of top-level .gitignore, with some exceptions, to make
 # ctrlp search the way I want it to
