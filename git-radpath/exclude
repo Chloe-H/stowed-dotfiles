@@ -39,7 +39,6 @@ src/client/dist
 
 # misc
 .DS_Store
-.env
 npm-debug.log.*
 .rake_tasks~
 
