@@ -1,6 +1,9 @@
 # ignore top-level elm.json that was added to make elm-format work when called in the root directory
 /elm.json
 
+# ignore top-level tags file added by universal ctags
+/tags
+
 # ignore vim's swap files
 *.swp
 
