@@ -1,11 +1,3 @@
-# git ls-files --others --exclude-from=.git/info/exclude
-# Lines that start with '#' are comments.
-# For a project mostly in C, the following would be a good set of
-# exclude patterns (uncomment them if you want to use them):
-# *.[oa]
-# *~
-*.swp
-/tags
 elm-stuff
 /elm-stuff
 /example/elm-stuff
@@ -17,3 +9,15 @@ dist
 .vscode
 node_modules
 *-lock.json
+docs.json
+src/Menu.elm
+src/Menu
+
+# git ls-files --others --exclude-from=.git/info/exclude
+
+# ignore vim's swap files
+*.swp
+*.swo
+
+# ignore universal ctags file
+/tags
