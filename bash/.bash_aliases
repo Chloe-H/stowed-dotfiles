@@ -1,2 +1,4 @@
-alias python='python3.6'
-alias pip='pip3.6'
+# Useful git  aliases
+alias gpom='git push origin master'
+alias gpo='git push origin'
+
