@@ -34,12 +34,12 @@ src/client/dist
 npm-debug.log.*
 .rake_tasks~
 
-*.cabal
+# *.cabal
 
 client/app/app.js
 # client/elm/Generated/
 # client/app/Generated/
-package-lock.json
+# package-lock.json
 /server/demo_data/illuminate/
 
 # ignore top-level elm.json that was added to make elm-format work when called in the root directory
