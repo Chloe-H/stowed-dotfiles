@@ -19,7 +19,6 @@ build
 .DS_Store
 .env
 npm-debug.log.*
-# package-lock.json
 
 # *.cabal
 
@@ -31,6 +30,8 @@ server/bin
 # server/test/data/Generated
 
 .idea/
+
+webpack-stats.json
 
 # ignore top-level elm.json that was added to make elm-format work when called in the root directory
 /elm.json
