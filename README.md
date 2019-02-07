@@ -44,7 +44,6 @@ them for now:
 - `touchpad`: it belongs in `/etc`
 - `ckb-next` it's just a screenshot of my favorite configuration
 - `compiz-config`: it's just a backup of my configurations
-- `git-radpath`: belongs in `.git/info` in the repository's directory
 
 ## To Do
 
