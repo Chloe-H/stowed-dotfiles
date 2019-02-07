@@ -7,6 +7,10 @@ Navigate to repository's directory, then `stow {directory}` to symlink configura
 
 ## Additional Setup/Information
 
+### git-exclude-files
+
+Run `./setup-git-excludes`, then `stow git-exclude`.
+
 ### libinput-gestures
 
 When you change the gestures, use `libinput-gestures-setup restart` to load them.

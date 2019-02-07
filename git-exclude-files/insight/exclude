@@ -1,0 +1,44 @@
+elm-stuff
+dist/
+bin/
+*.zip
+.vscode
+.idea/
+# dependencies
+node_modules/
+.stack-work/
+.fusebox
+
+# testing
+coverage
+
+# production
+build
+
+# misc
+.DS_Store
+.env
+npm-debug.log.*
+
+# *.cabal
+
+client/npm-debug.log
+# client/elm/Generated
+client/dist
+server/bin
+
+# server/test/data/Generated
+
+.idea/
+
+webpack-stats.json
+
+# ignore top-level elm.json that was added to make elm-format work when called in the root directory
+/elm.json
+
+# ignore tag files added by gutentags
+.gutenctags
+
+# ignore vim's swap files
+*.swp
+*.swo
