@@ -26,6 +26,7 @@ the script executable before running the command above.
 
 Open Powershell or bash and enter
 `git config --global init.templatedir "~/.git-templates"`.
+Alternatively, you might should get the same effect by stowing `git-config`.
 
 Any repositories cloned after this setup should automatically be configured to
 execute the commit hook. To use the commit hook in repositories you cloned before
