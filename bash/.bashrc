@@ -133,3 +133,6 @@ stty -ixon
 # For virtualenvwrapper (CEH)
 source ~/.local/bin/virtualenvwrapper.sh
 export WORKON_HOME=/virtualenvs
+
+# For default editor (CEH)
+export EDITOR='vim'
