@@ -52,6 +52,7 @@ them for now:
 
 ## To Do
 
+- Add Vim setup as a submodule
 - Remove all this bs from Google Drive once it's shown to work smoothly using `stow`
 - Add links to helpful pages for each configuration
 - Maintain separate branches for different machines
