@@ -7,9 +7,16 @@ Navigate to repository's directory, then `stow {directory}` to symlink configura
 
 ## Additional Setup/Information
 
-### git-exclude-files
+### Caveats
 
-Run `./setup-git-excludes`, then `stow git-exclude`.
+I've only tried this on Ubuntu 16.04, and I don't know what I'm doing.
+
+I know there is a flag that will let me correctly stow these, but I haven't yet
+bothered to figure out what it is and document it, so **do not** use `stow` on
+them for now:
+
+- `git-commit-hooks`: doesn't seem to appreciate being symlinked
+- `touchpad`: it belongs in `/etc`
 
 ### libinput-gestures
 
@@ -37,25 +44,12 @@ adding a commit to it. If the hook is working, the commit message should look
 like `[branch_name] Commit message`.
 
 
-## Caveats
-
-I've only tried this on Ubuntu 16.04, and I don't know what I'm doing.
-
-I know there is a flag that will let me correctly stow these, but I haven't yet
-bothered to figure out what it is and document it, so **do not** use `stow` on
-them for now:
-
-- `git-commit-hooks`: doesn't seem to appreciate being symlinked
-- `touchpad`: it belongs in `/etc`
-- `ckb-next` it's just a screenshot of my favorite configuration
-- `compiz-config`: it's just a backup of my configurations
-
 ## To Do
 
+- Add a script or something for git exclude files
 - Add Vim setup as a submodule
-- Remove all this bs from Google Drive once it's shown to work smoothly using `stow`
+- Remove all this BS from Google Drive once it's shown to work smoothly using `stow`
 - Add links to helpful pages for each configuration
-- Maintain separate branches for different machines
 - Try to resolve the caveats
     - Check out
     [this](https://stackoverflow.com/questions/4592838/symbolic-link-to-a-hook-in-git)
